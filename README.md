@@ -231,8 +231,7 @@ $ gradle api:model:buildNeeded
 
 ## Tip 19: Build project and all its dependents
 
-```
-bash
+```bash
 $ gradle api:rest:buildDependents
 ```
 
