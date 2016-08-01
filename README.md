@@ -70,7 +70,7 @@ $ gradle api:rest:build
 
 ## Tip 4: Exclude tasks
 
-To execute a task you use `-x` option. Let's suppose we want to skip tests then we can use following command
+To exclude a task you use `-x` option. Let's suppose we want to skip tests then we can use following command
 
 ```bash
 $ gradle clean build -x test
