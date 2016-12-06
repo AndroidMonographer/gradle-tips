@@ -1,3 +1,4 @@
+
 Gradle Tips
 ----
 
@@ -685,6 +686,16 @@ $ gdw <taskname> --debug-jvm
 
 ```bash
 $ gradle bootRun --debug-jvm
+```
+
+## Tip 51: Using Local Maven Repository
+
+To use a local `~/.m2` repository, you should add following to your build.gradle.
+
+```groovy
+repositories {
+    mavenLocal()
+}
 ```
 
 -----------
