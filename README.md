@@ -698,5 +698,19 @@ repositories {
 }
 ```
 
+## Tip 52: Exclude transitive dependency
+
+To exclude a transitive dependency, do the following
+
+```groovy
+compile('org.hibernate:hibernate:3.1') {
+
+  exclude module: 'cglib' //by artifact name
+
+  exclude group: 'org.jmock' //by group
+
+}
+```
+
 -----------
 You can follow me on twitter at [https://twitter.com/shekhargulati](https://twitter.com/shekhargulati) or email me at <shekhargulati84@gmail.com>. Also, you can read my blogs at [http://shekhargulati.com/](http://shekhargulati.com/)
