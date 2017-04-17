@@ -99,6 +99,14 @@ $ gradle build --dry-run
 
 ## Tip 7: Install project jars into local Maven repository
 
+You have to first add maven plugin to your project `build.gradle` file.
+
+```
+apply plugin: 'maven'
+```
+
+Then, you can run the gradle task shown below.
+
 ```bash
 $ gradle install
 ```
