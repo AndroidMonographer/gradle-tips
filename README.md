@@ -248,6 +248,8 @@ dependencies {
 }
 ```
 
+If you use `fileTree(dir: 'libs', include: ['/**/*.jar'])` instead it will even recursively include jars from all subdirectories!
+
 ## Tip 18: Build project and all project it depends on
 
 ```bash
